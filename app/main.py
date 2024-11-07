@@ -93,7 +93,7 @@ if __name__ == "__main__":
     chain = Chain()
     st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="📧")
     # Add background image (replace with your image URL)
-    add_background_image("app\background_2.png")
+    add_background_image("app/background_2.png")
 
     create_streamlit_app(chain, clean_text)
 
